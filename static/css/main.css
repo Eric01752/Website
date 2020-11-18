@@ -1,73 +1,22 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-image: url(/static/img/background.jpg);
-    background-repeat: none;
-    background-size: cover;
-    font-weight: 650;
+    background: #CCC;
 }
 
-header {
-    background-color: #DFB887;
-    height: 35px;
-    width: 100%;
-    opacity: .9;
-    margin-bottom: 10px;
+#head a:hover {
+    color: #FFF;
 }
 
-header h1.logo {
-    margin: 0;
-    font-size: 1.7em;
-    color: #fff;
-    text-transform: uppercase;
-    float: left;
+#bg-image {
+    background: url(/static/img/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
 }
 
-header h1.logo:hover {
-    color: #fff;
-    text-decoration: none;
+#about {
+    margin-top: -200px;
 }
 
-.container {
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.menu {
-    float: right;
-    margin-top: 8px;
-}
-
-.menu li {
-    display: inline;
-}
-
-.menu li + li {
-    margin-left: 35px;
-}
-
-.menu li a {
-    color: #444;
-    text-decoration: none;
-}
-
-div.home, div.about, div.projects, div.contact {
-    padding: 8px 8px 25px 8px;
-    background-color: #E8E2E0;
-    opacity: 0.95;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    overflow: auto;
-}
-
-div.projects .project-img {
-    width: 75%;
-    height: 75%;
-}
-
-div.projects .project-sections {
-    border-top: 3px solid gray;
-    border-bottom: 3px solid gray;
+#about .fa {
+    color: #FFF;
 }

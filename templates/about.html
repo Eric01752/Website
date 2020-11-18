@@ -1,24 +1,59 @@
 {%extends "layout.html"%}
 {%block content%}
-<div class="about">
-    <h1>About page</h1>
-    <br/>
-    <p>Name: Eric Schmidt</p>
-    <p>Education:</p>
-    <ul>
-        <li>Framingham State University (Active)</li>
-        <li>Quinsigamond Community College (Associates Degree)</li>
-        <li>Marlborough High School (High School Diploma)</li>
-    </ul>
-    <p>Programming Skills:</p>
-    <ul>
-        <li>Python</li>
-        <li>Java</li>
-        <li>C++</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>SQL</li>
-    </ul>
+
+<!--About Content-->
+
+<div id="bg-image"></div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="aboutData">
+                    <div class="card bg-white">
+                        <div class="card-title my-5">
+                            <div class="media">
+                                <img src="/static/img/Naruto.png" width="250" height="250" class="img-fluid rounded-top mx-5 d-none d-lg-block">
+                                <div class="media-body">
+                                    <h3 class="display-4 ml-5">I'm Eric Schmidt</h3>
+                                    <p class="text-muted ml-5">Student at Framingham State University</p>
+                                    <div class="container">
+                                        <table class="table table-responsive ml-4">
+                                            <tr>
+                                                <td class="text-muted">Age</td>
+                                                <td>:</td>
+                                                <td>24 Years Old</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-muted">Email</td>
+                                                <td>:</td>
+                                                <td>eschmidt2@student.framingham.edu</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-muted">Phone</td>
+                                                <td>:</td>
+                                                <td>(508)739-5746</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-muted">Website</td>
+                                                <td>:</td>
+                                                <td>https://eric-schmidt.herokuapp.com</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-danger">
+                            <a href="#"><i class="fa fa-facebook fa-2x mx-3"></i></a>
+                            <a href="#"><i class="fa fa-instagram fa-2x mx-3"></i></a>
+                            <a href="#"><i class="fa fa-github fa-2x mx-3"></i></a>
+                            <a href="#"><i class="fa fa-linkedin fa-2x mx-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 {%endblock%}
